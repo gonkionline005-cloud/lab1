@@ -1,0 +1,75 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Фон и цвета */
+body {
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Контейнер для всей страницы */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Стиль для текста о себе */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Секции */
+section {
+    margin-bottom: 30px;
+}
+
+/* Стили для списка хобби */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #eef7e9;
+    border-radius: 5px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стиль для футера */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 30px;
+}
