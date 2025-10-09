@@ -1,45 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя визитка</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Пержан Татьяна — Визитка</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Пержан Татьяна</h1>
-            <p>Привет! Я разработчик веб-приложений.</p>
+<div class="container">
+    <main class="card">
+        <header class="profile">
+            <img src="me.jpg" alt="Фото Пержан Татьяна">
+            <h1>Пержан<br><span>Татьяна Александровна</span></h1>
+            <p class="info">  gonkionline005@gmail.com &nbsp;•&nbsp; @softfaya</p>
         </header>
 
-        <section class="about">
+        <section class="intro">
             <h2>Обо мне</h2>
-            <p>Я увлекаюсь разработкой веб-приложений, люблю решать сложные задачи и создавать полезные продукты. Работаю как ,фронтенд разработчик.</p>
+            <p>Привет, я Татьяна — интересуюсь веб-дизайном и созданием минималистичных интерфейсов.
+            Предпочитаю монохромную эстетику и аккуратный моноширинный шрифт.</p>
         </section>
 
         <section class="hobbies">
-            <h2>Мои хобби</h2>
-            <ul>
-                <li>Чтение книг</li>
-                <li>Путешествия</li>
+            <h2>Хобби</h2>
+            <ul class="centered-list">
                 <li>Фотография</li>
-                <li>Спорт</li>
+                <li>Чтение</li>
+                <li>Веб и графический дизайн</li>
             </ul>
+        </section>
+
+        <section class="books">
+            <h2>Любимые книги</h2>
+            <table>
+                <thead>
+                    <tr><th>Название</th><th>Автор</th><th>Год</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>«Мальчик в полосатой пижаме»</td><td>Джон Бойн</td><td>2006</td></tr>
+                    <tr><td>«Гордость и предубеждение»</td><td>Джейн Остин</td><td>1813</td></tr>
+                </tbody>
+            </table>
         </section>
 
         <section class="contacts">
-            <h2>Контакты</h2>
-            <ul>
-                <li>Email: gonkionline005@example.com</li>
-                <li>Телефон: +373 (776) 20 - 216 </li>
-                <li>GitHub: <a href="https://github.com/ivanivanov" target="_blank">ivanivanov</a></li>
-            </ul>
+            <h2>Контакты и ссылки</h2>
+            <div class="links">
+                <a href="mailto:gonkionline005@gmail.com">Почта: gonkionline005@gmail.com</a>
+                <a href="https://t.me/softfaya" target="_blank">Telegram: @softfaya</a>
+                <a href="https://github.com/gonkionline005-cloud" target="_blank">GitHub: gonkionline005-cloud</a>
+            </div>
         </section>
-
-        <footer>
-            <p>&copy; 2025 Пержан Татьяна </p>
-        </footer>
-    </div>
+    </main>
+</div>
 </body>
 </html>
